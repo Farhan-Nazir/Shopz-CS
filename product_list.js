@@ -1,4 +1,4 @@
-module.exports = [
+[
   {
     id: "404449",
     product_name: "ette",
