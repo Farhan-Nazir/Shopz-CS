@@ -1,6 +1,6 @@
 function productRouter(router) {
-  router.route("/api/products").get((req, res) => {
-    return res.send("Products API working.........");
+  router.route('/api/products').get((req, res) => {
+    return res.send('Products API working.........');
   });
 }
 
