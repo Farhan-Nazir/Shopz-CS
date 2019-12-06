@@ -4,6 +4,7 @@
   "description": "Backend service for client app",
   "main": "server.js",
   "scripts": {
+    "start": "npm test && node server.js",
     "test": "jest"
   },
   "repository": {
