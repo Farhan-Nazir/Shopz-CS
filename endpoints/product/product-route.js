@@ -1,5 +1,6 @@
+const endpoint = require('../endpointConstants');
 function productRouter(router) {
-  router.route('/api/products').get((req, res) => {
+  router.route(endpoint.PRODUCT).get((req, res) => {
     return res.send('Products API working.........');
   });
 }
